@@ -48,6 +48,7 @@ import gettext # Internationalization/Localization (https://docs.python.org/3.13
 
 ## Additional Libraries
 
+- [Requests](https://requests.readthedocs.io/en/latest/)
 - [FastAPI](https://fastapi.tiangolo.com/tutorial/)
 - [PyMongo](https://pymongo.readthedocs.io/en/stable/tutorial.html)
 - [Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
