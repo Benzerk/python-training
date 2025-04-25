@@ -11,6 +11,7 @@
 - [Coding Conventions](https://peps.python.org/pep-0008)
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Video Tutorial](https://www.youtube.com/playlist?list=PLT98CRl2KxKGIazPd2nQEPbG7sQpT8LEj)
+- [Python Notes for Professionals](https://books.goalkicker.com/PythonBook/)
 
 
 ## Standard Library
