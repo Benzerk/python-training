@@ -8,7 +8,7 @@
 - [Standard Library Reference](https://docs.python.org/3/library/)
 - [Package Manager](https://docs.python.org/3/installing/)
 - [Virtual Environments](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)
-- [Coding Conventions](https://peps.python.org/pep-0008)
+- [Coding Style Conventions](https://peps.python.org/pep-0008)
 - [Python in Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
 - [Video Tutorial](https://www.youtube.com/playlist?list=PLT98CRl2KxKGIazPd2nQEPbG7sQpT8LEj)
 - [Python Notes for Professionals](https://books.goalkicker.com/PythonBook/)
@@ -50,6 +50,7 @@ import gettext # Internationalization/Localization (https://docs.python.org/3.13
 ## Additional Libraries
 
 - [Requests](https://requests.readthedocs.io/en/latest/)
+- [PyYAML](https://pyyaml.org/wiki/PyYAMLDocumentation)
 - [FastAPI](https://fastapi.tiangolo.com/tutorial/)
 - [PyMongo](https://pymongo.readthedocs.io/en/stable/tutorial.html)
 - [Pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
@@ -68,19 +69,28 @@ py -m venv .venv
 # Activate a virtual environment
 .\.venv\Scripts\Activate.ps1
 
+# Deactivate virtual environment
+deactivate
+
 # Install & Upgrade package manager
-py -m ensurepip --upgrade
+py -m ensurepip
 pip install --upgrade pip
 
 # Install dependencies
 pip install -r requirements.txt
 
-# Install packages
+# Display all installed packages with version
+pip list
+
+# Display an installed package information (including version)
+pip show <package>
+
+# Install a package
 pip install <package>
+
+# Uninstall a package
+pip unistall <package>
 
 # Upgrade packages to the latest from PyPI
 pip install --upgrade <package>
-
-# Deactivate virtual environment
-deactivate
 ```
